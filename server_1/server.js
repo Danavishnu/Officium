@@ -14,7 +14,7 @@ const serverless=require('serverless-http');
 //   }
 // 
 
-   
+    console.log("Reached 1")
     connectDB();
     app.use(cors());
     app.use(express.json({ extended: false }));
