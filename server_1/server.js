@@ -1,23 +1,21 @@
-// const express = require('express');
-// const connectDB = require('./DB/Conncection');
-// const app = express();
-// var cors=require('cors')
-// const serverless=require('serverless-http');
+const express = require('express');
+const connectDB = require('./DB/Conncection');
+const app = express();
+var cors=require('cors')
+const serverless=require('serverless-http');
 
-// connectDB();
-// app.use(cors());
-// app.use(express.json({ extended: false }));
-// app.use('/api',require('./Api/User'))
-// app.use('/marks', require('./Api/Marks'));
+
+exports.handler = async event => {
+
+    connectDB();
+    app.use(cors());
+    app.use(express.json({ extended: false }));
+    app.use('/api',require('./Api/User'))
+    app.use('/marks', require('./Api/Marks'));
+  }
+// 
 // const Port = 3003;
 
 // // app.listen(Port, () => console.log('Server started'))
 // module.exports.handler=serverless(app)
 
-exports.handler = async event => {
-    const subject = event.queryStringParameters.name || 'World'
-    return {
-      statusCode: 200,
-      body: `Hello ${subject}!`,
-    }
-  }
