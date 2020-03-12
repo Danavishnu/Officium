@@ -6,7 +6,6 @@ const serverless=require('serverless-http');
 
 
 exports.handler = async event => {
-
     connectDB();
     app.use(cors());
     app.use(express.json({ extended: false }));
