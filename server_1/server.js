@@ -21,6 +21,6 @@ const serverless=require('serverless-http');
     app.use('/api',require('./Api/User'))
     app.use('/marks', require('./Api/Marks'));
     const Port = 3003;
-    app.listen(Port, () => console.log('Server started'))
-    // module.exports.handler=serverless(app)
+    // app.listen(Port, () => console.log('Server started'))
+    module.exports.handler=serverless(app)
 
