@@ -6,7 +6,7 @@ Software   to bridge the gap between CIR and students and facilitate students' p
 
 ## Client & Admin Dashboard Kit
 
-A  kit that comes with plenty of ready-to-use Material-UI© components developed with one common goal in mind, help you build faster & beautiful applications. Each component is fully customizable, responsive and easy to integrate.
+My kit that comes with plenty of ready-to-use Material-UI© components developed with one common goal in mind, help you build faster & beautiful applications. Each component is fully customizable, responsive and easy to integrate.
 
 ### Features
 
