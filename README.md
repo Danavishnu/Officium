@@ -1,12 +1,12 @@
 <<<<<<< HEAD
 # Officium
-Software Engineering Project to bridge the gap between CIR and students and facilitate students' placement preparation.
+Software   to bridge the gap between CIR and students and facilitate students' placement preparation.
 =======
 # Devias Material Kit Pro
 
 ## Client & Admin Dashboard Kit
 
-A professional kit that comes with plenty of ready-to-use Material-UI© components developed with one common goal in mind, help you build faster & beautiful applications. Each component is fully customizable, responsive and easy to integrate.
+A  kit that comes with plenty of ready-to-use Material-UI© components developed with one common goal in mind, help you build faster & beautiful applications. Each component is fully customizable, responsive and easy to integrate.
 
 ### Features
 
