@@ -17,7 +17,7 @@ exports.handler = async event => {
     app.use(cors());
     app.use(express.json({ extended: false }));
     console.log("Reached 3")
-    app.use('/api',require('./Api/User'))
+    app.use('/api',require('./Api/User').handler(event,context,callback))
     console.log("Reached 4")
     app.use('/marks', require('./Api/Marks'));
     console.log("Reached 5")
