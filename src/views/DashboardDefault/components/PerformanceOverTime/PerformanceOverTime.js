@@ -34,7 +34,7 @@ const PerformanceOverTime =  props => {
   
   const { className, ...rest } = props;
   const classes = useStyles();
-  var link =("http://localhost:3003/marks/").concat(localStorage.getItem('first_name') + "," + localStorage.getItem('last_name'));
+  var link =("https://fathomless-stream-13435.herokuapp.com/marks/").concat(localStorage.getItem('first_name') + "," + localStorage.getItem('last_name'));
   console.log(link)
   const response =  axios.get(link).then(
         data =>{
