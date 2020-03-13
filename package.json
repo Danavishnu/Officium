@@ -53,6 +53,7 @@
     "js-cookie": "^2.2.0",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
+    "mongodb": "^3.5.5",
     "mongoose": "^5.9.4",
     "node-sass": "^4.11.0",
     "prismjs": "^1.17.1",
