@@ -17,8 +17,11 @@ exports.handler = async event => {
     // connectDB();
     app.use(cors());
     app.use(express.json({ extended: false }));
+    console.log("Reached 3")
     app.use('/api',require('./Api/User'))
+    console.log("Reached 4")
     app.use('/marks', require('./Api/Marks'));
+    console.log("Reached 5")
   }
 
 
