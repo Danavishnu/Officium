@@ -3,9 +3,7 @@ const mongoose = require('mongoose');
 const User = require('../DB/User');
 const route = express.Router();
 
-exports.handler = async event =>{
 route.post('/', async (req, res) => {
-  console.log("Control Here")
   const {FirstName,LastName,Email,Password} = req.body;
   let user = {};
   // console.log(req.body)
@@ -50,10 +48,8 @@ route.get('/:Username',(req,res)=>{
 
   
 })
+
+
+
+
 module.exports = route;
-
-}
-
-
-
-
