@@ -14,7 +14,6 @@ exports.handler = async event => {
         useNewUrlParser: true
       });
       console.log('db connected..!');
-    // connectDB();
     app.use(cors());
     app.use(express.json({ extended: false }));
     console.log("Reached 3")
