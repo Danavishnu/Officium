@@ -154,6 +154,7 @@ const FilesDropzone = props => {
               color="secondary"
               size="small"
               variant="contained"
+              // onClick={upload}
             >
               Upload files
             </Button>
