@@ -19,7 +19,7 @@ import { SESSION_LOGIN } from 'actions';
 // import { login } from 'actions';
 // const [fruit, setFruit] = useState('banana');
 // const initialState = {
-//   FirstName:"Lemon"  
+//   FirstName:"Lemon
 // };
 // function reducer(state= initialState,action)
 // {
