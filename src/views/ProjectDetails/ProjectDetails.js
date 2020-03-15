@@ -106,7 +106,7 @@ const ProjectDetails = props => {
       {openAlert && (
         <Alert
           className={classes.alert}
-          message="The content holder has extended the deadline! Good luck"
+          message="Don't forget to check out activity!"
           onClose={handleAlertClose}
         />
       )}
