@@ -133,7 +133,7 @@ const Register = () => {
                 color="inherit"
                 variant="body1"
               >
-                Dana Vishnu
+                Dana Vishn
               </Typography>
               <Typography
                 color="inherit"
