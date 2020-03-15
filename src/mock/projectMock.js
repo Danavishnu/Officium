@@ -153,7 +153,7 @@ mock.onGet('/api/projects').reply(200, {
 
 mock.onGet('/api/projects/1').reply(200, {
   project: {
-    title: 'Develop a PDF Export App',
+    title: 'Repository',
     author: {
       name: 'Emilee Simchenko',
       avatar: '/images/avatars/avatar_9.png',
