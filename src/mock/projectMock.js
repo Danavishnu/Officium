@@ -213,10 +213,10 @@ I have attached a chat with our users most used devices.
     files: [
       {
         id: uuid(),
-        name: 'example-project1.jpg',
-        url: '/images/projects/project_2.jpg',
-        mimeType: 'image/png',
-        size: 1024 * 1024 * 3
+        name: 'model-question-paper.pdf',
+        url: 'https://codersofblaviken.blob.core.windows.net/files/documents/model-question-paper.pdf',
+        mimeType: 'file/pdf',
+        size: 1024 * 535.91
       },
       {
         id: uuid(),
@@ -227,44 +227,23 @@ I have attached a chat with our users most used devices.
       },
       {
         id: uuid(),
-        name: 'example-project2.jpg',
-        url: '/images/projects/project_1.jpg',
-        mimeType: 'image/png',
-        size: 1024 * 1024 * 2
+        name: 'SE Group details.xlsx',
+        url: 'https://codersofblaviken.blob.core.windows.net/files/documents/SE Group details.xlsx',
+        mimeType: 'file/xlsx',
+        size: 1024 * 5.97
       }
     ],
     activities: [
       {
         id: uuid(),
-        subject: 'Project owner',
+        subject: 'Srinath R',
         subject_type: 'user',
         action_type: 'upload_file',
         action_desc: 'has uploaded a new file',
         created_at: moment().subtract(23, 'minutes')
       },
-      {
-        id: uuid(),
-        subject: 'Adrian Stefan',
-        subject_type: 'user',
-        action_type: 'join_team',
-        action_desc: 'joined team as a Front-End Developer',
-        created_at: moment().subtract(2, 'hours')
-      },
-      {
-        id: uuid(),
-        subject: 'Alexandru Robert',
-        action_type: 'join_team',
-        action_desc: 'joined team as a Full Stack Developer',
-        created_at: moment().subtract(9, 'hours')
-      },
-      {
-        id: uuid(),
-        subject: 'Project owner',
-        subject_type: 'user',
-        action_type: 'price_change',
-        action_desc: 'raised the project budget',
-        created_at: moment().subtract(2, 'days')
-      },
+      
+     
       {
         id: uuid(),
         subject: 'Contest',
