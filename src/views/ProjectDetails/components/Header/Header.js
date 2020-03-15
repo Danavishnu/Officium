@@ -60,7 +60,7 @@ const Header = props => {
             gutterBottom
             variant="overline"
           >
-            Browse projects
+            Browse files
           </Typography>
           <Typography
             component="h1"
@@ -74,7 +74,7 @@ const Header = props => {
             color={colors.green[600]}
             variant="outlined"
           >
-            Active project
+            Uploaded files
           </Label>
         </Grid>
         <Grid item>
@@ -90,7 +90,7 @@ const Header = props => {
             onClick={handleApplicationOpen}
             variant="contained"
           >
-            Apply for a role
+            Export as ZIP
           </Button>
         </Grid>
       </Grid>
