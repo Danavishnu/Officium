@@ -93,7 +93,7 @@ const Login = () => {
             gutterBottom
             variant="h3"
           >
-            Awesomeness
+            Sign in
           </Typography>
           <Typography variant="subtitle2">
             Sign in on the internal platform
