@@ -10,7 +10,7 @@ import axios from "axios";
 import { createStore } from 'redux';
 import { Provider } from "react-redux";
 import * as actionTypes from 'actions';
-import { put } from 'redux-saga/effects'
+import { put } from 'redux-saga/effects';
 
 
 
