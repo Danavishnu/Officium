@@ -120,7 +120,7 @@ const Register = () => {
             color="inherit"
             variant="subtitle1"
           >
-            Welcome Aboaaad , Champ 
+            Welcome Aboard , Champ !
           </Typography>
           <div className={classes.person}>
             <Avatar
