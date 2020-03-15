@@ -198,7 +198,8 @@ const routes = [
       {
         path: '/getting-started',
         exact: true,
-        component: lazy(() => import('views/GettingStarted'))
+        component: lazy(() => { window.location.href = 'http://officium-forum.herokuapp.com/' } )
+        //import('views/GettingStarted')
       },
       {
         component: () => <Redirect to="/errors/error-404" />
