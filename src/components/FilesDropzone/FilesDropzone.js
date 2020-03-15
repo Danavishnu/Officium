@@ -152,6 +152,7 @@ const FilesDropzone = props => {
             </Button>
             <Button
               color="secondary"
+              onClick={window.href='https://officium.netlify.com/projects/1/files'}
               size="small"
               variant="contained"
               // onClick={upload}
