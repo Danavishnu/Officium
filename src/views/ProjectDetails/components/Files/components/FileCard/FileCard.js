@@ -112,7 +112,7 @@ const FileCard = props => {
       </CardContent>
       <Divider />
       <CardActions className={classes.actions}>
-        <Button>
+        <Button onClick={ window.location.href = 'https://codersofblaviken.blob.core.windows.net/files/documents/model-question-paper.pdf'}>
           <GetAppIcon className={classes.getAppIcon} />
           Download
         </Button>
